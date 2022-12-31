@@ -1,0 +1,39 @@
+.container{
+    border: 2px solid red;
+    height: 4000px;
+    width: 5000px;
+    background-color: aqua;
+}
+.container2{
+    border:4px dashed palevioletred;
+    height: 2000px;
+    width: 5000px;
+    
+}
+.a{
+    border: 3px solid gold;
+    background-color: thistle;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+#b{
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+#d{
+    position: sticky;
+    top: 2px;
+}
+#e{
+    position: fixed;
+    top: 200px;
+    left: 0px;
+}
+/* Fixed and sticky are both similar, but 
+If you make a  particular element inside a container as fixed, then irrespective of container height, as we scroll, the element stays at the same position till you scroll to end of web page.
+
+If you make an element as sticky and if its inside a container, then as you scroll, the element will be in the same position until the container height. While scrolling, if the container is also scrolled down, then the sticky element in the container will also move top with container.
+
+i.e., sticky will be fixed only till the end of the container, But fixed will be fixed until the end of web page. */
